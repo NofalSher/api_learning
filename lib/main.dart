@@ -3,7 +3,7 @@ import './apimodel.dart';
 import 'package:http/http.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(MaterialApp(home: const MyApp()));
 }
 
 class MyApp extends StatefulWidget {
